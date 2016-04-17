@@ -68,7 +68,11 @@ struct node{
 	struct node *right;
 };
 
-int mangocity_count_ways(struct node *startcity,int k, int *shortestpath,int *shortestpathlen){
-	if (shortestpath==0||shortestpathlen==0||k==0||startcity==NULL)
-	return -1;
+int mangocity_count_ways(struct node *startcity, int k, int *shortestpath, int *shortestpathlen){
+	if (shortestpath == 0 || shortestpathlen == 0 || k == 0 || startcity == NULL)
+		return -1;
+	else{
+		int a = 2, b = 3, c = 0;
+		c = a + b;
+	}
 }

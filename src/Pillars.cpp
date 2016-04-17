@@ -68,4 +68,8 @@ Note : There will be only One Maximum Jumps path .[If there are multiple ,Return
 int * pillars_max_jumps(int *blocks, int n, int m,int *jumps_count){
 	if (blocks==0||n==0||m==0||jumps_count==0)
 	return NULL;
+	else{
+		int a = 2, b = 3, c = 0;
+		c = a + b;
+	}
 }
